@@ -54,6 +54,22 @@ app.post('/todos', async (req, res) => {
 
 })
 
+// Get a single item by ID
+app.get('/todos/:id', async (req, res) => {
+    try {
+        const todo = await todoModel.findById(req.params.id);
+        if (todo) {
+            res.json(todo);
+        } else {
+            res.status(404).json({ message: "Todo not found" });
+        }
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({ message: error.message });
+    }
+});
+
+
 //Get all items
 app.get('/todos', async (req, res) => {
     try {
