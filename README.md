@@ -20,7 +20,6 @@ This application showcases the implementation of CRUD operations with a dynamic 
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
 - **Version Control:** Git/GitHub
-- **Deployment:** [Add deployment details here, if applicable]
 
 ## How to Run the Project
 
