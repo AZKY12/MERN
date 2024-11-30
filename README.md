@@ -71,10 +71,6 @@ MERN/
 └── README.md         # Project documentation
 ```
 
-## Screenshots
-
-![App Screenshot 1](#)  
-![App Screenshot 2](#)
 
 ## Future Enhancements
 
@@ -101,9 +97,6 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
    ```
 5. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
 
